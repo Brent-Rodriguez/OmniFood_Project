@@ -1,6 +1,6 @@
 :root{
   --primary-color: #e67e22;
-  --tints-color: #ffff;
+  --primary-tints-color: #fdf2e9;
   --shade-color: #ffff;
   --accents-color: #ffff;
   --primary-grey: #555;
@@ -24,6 +24,11 @@ body{
   color: var(--primary-grey);
 }
 
+.section-hero{
+  background: var(--primary-tints-color);
+  padding: 9.rem 0;
+}
+
 .hero{
   max-width: 130rem;
   margin: 0 auto;
@@ -36,6 +41,14 @@ body{
   font-weight: 700;
   line-height: 1.05;
   color: var(--other-grey);
+  letter-spacing: -0.5px;
+  margin-bottom: 3.2rem;
+}
+
+.hero-description{
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
 }
 
 .hero-img{
