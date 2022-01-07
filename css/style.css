@@ -28,7 +28,7 @@ body{
 
 .section-hero{
   background: var(--primary-tints-color);
-  padding: 9.rem 0;
+  padding: 9rem 0;
 }
 
 .hero{
@@ -92,4 +92,32 @@ body{
 
 .hero-img{
   width: 100%;
+}
+
+.delivered-meals{
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 8rem;
+}
+
+.delivered-img{
+  display: flex;
+}
+
+.delivered-img img{
+  height: 4.8rem;
+  width: 4.8rem;
+  border: 3px solid var(--primary-tints-color);
+  border-radius: 50%;
+  margin-right: -1.6rem;
+}
+
+.delivered-img img:last-child{
+  margin: 0;
+}
+
+.delivered-text{
+  font-size: 1.8rem;
+  font-weight: 500;
 }
