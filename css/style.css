@@ -130,7 +130,19 @@ body{
 }
 
 .heading-secondary{
+  font-size: 4.4rem;
+  line-height: 1.2rem;
+  margin-bottom: 9.6rem;
+}
 
+.subheading{
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--primary-hover);
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
 }
 
 .hero-description{
@@ -215,3 +227,18 @@ body{
 }
 
 
+/* How it Works Section */
+
+.section-how{
+  padding: 9.6rem 0;
+}
+
+.step-number{
+  font-size: 9.8rem;
+  font-weight: 200;
+  color: var(--other-grey);
+}
+
+.step-img{
+  width: 50%;
+}
