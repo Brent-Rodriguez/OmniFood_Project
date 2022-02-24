@@ -153,14 +153,14 @@
 /*Featured Section*/
 
 .section-feature{
-  padding: 4.8rem 0;
+  padding: 5rem 0 3.2rem 0;
 }
 
 .heading-featured-in{
   font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: 0.75px;
-  font-weight: 500;
+  font-weight: 400;
   text-align: center;
   margin-bottom: 2.4rem;
 }
@@ -168,11 +168,13 @@
 
 .logos{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .logos img{
   height: 3.2rem;
+  filter: brightness(0);
+  opacity: 50%;
 }
 /* How it Works Section */
 
