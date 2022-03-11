@@ -241,6 +241,11 @@
 .meal{
   box-shadow: 0 2.4rem 4.8rem rgba(0,0,0,0.075);
   border-radius: 11px;
+  overflow: hidden;
+}
+
+.meal-content{
+  padding: 3.2rem 3.8rem 3.8rem 3.8rem;
 }
 
 .meal-tags{
@@ -254,13 +259,14 @@
   text-transform: uppercase;
   background-color: #51cf66;
   color: #333;
-  border-radius: 100px;
+  border-radius: 10px;
+  font-weight: 400;
 }
 
 .meal-title{
   font-size: 2.4rem;
   color: var(--other-grey);
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 3.2rem;
 }
 
